@@ -41,9 +41,9 @@ namespace Ass2_Q1_RandomWriting
             int markovLevel = -1;
 
             //read file name
-            //Console.WriteLine("Please enter file name :");
-            //string fileName = Console.ReadLine();
-            string fileName = @"c:\temp\test.txt";
+            Console.WriteLine("Please enter file name :");
+            string fileName = Console.ReadLine();
+            //string fileName = @"c:\temp\test.txt";
 
             //read Markov level
             Console.WriteLine("Please enter Markov level (or type 'break' to exit):");
